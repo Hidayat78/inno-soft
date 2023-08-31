@@ -1,0 +1,31 @@
+[type='search'] {
+    -webkit-appearance: textfield;
+    outline-offset: -1px;
+    width: 450px;
+    height: 35px;
+    outline: none;
+}
+
+.last3{
+    display: flex;
+    gap: 20px;
+}
+
+/* styles.css */
+.search-container {
+    position: relative;
+  }
+  
+  .search-input {
+    padding: 10px 30px 10px 10px; /* Add padding to accommodate the icon */
+    border-radius: 5px;
+  }
+  
+  .search-input::before {
+    content: '\1F50D'; /* Unicode for the magnifying glass emoji */
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    font-size: 16px;
+  }
